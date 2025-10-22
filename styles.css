@@ -99,3 +99,7 @@ a {
     }
 }
 
+html, body {
+    overflow: hidden;
+}
+
