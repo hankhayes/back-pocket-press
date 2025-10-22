@@ -73,32 +73,6 @@ a {
     text-decoration: none;
 }
 
-.text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: min(12vw, 12rem);
-    animation: toggle 1s steps(1, end) infinite;
-}
-
-/* First font visible initially */
-.text-a {
-    font-family: 'UnifrakturMaguntia', cursive;
-}
-
-/* Second font starts hidden */
-.text-b {
-    font-family: 'Crimson Text', serif;
-    animation-delay: 0.5s;
-}
-
-/* Define instant visibility toggle */
-@keyframes toggle {
-    0% { opacity: 1; }
-    50%, 100% { opacity: 0; }
-}
-
 /* Responsive design */
 @media (max-width: 768px) {
     .sorts-mill-goudy {
