@@ -64,6 +64,19 @@ body {
     max-width: 100%;
 }
 
+.monsieur-la-doulaise {
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-size: min(12vw, 12rem);
+    font-weight: 400;
+    display: block;
+    margin-bottom: 2rem;
+    line-height: 0.9;
+    word-spacing: 0.1rem;
+    max-width: 100%;
+    /* add additional styling as needed */
+}
+
+
 
 /* "Coming soon..." - lighter weight serif font, small */
 .coming-soon {
@@ -129,6 +142,13 @@ a {
         white-space: normal;
         line-height: 0.9;
         font-size: min(26vw, 21rem);
+        min-height: 18rem;
+    }
+    
+    .monsieur-la-doulaise {
+        white-space: normal;
+        line-height: 0.8;
+        font-size: min(30vw, 25rem);
         min-height: 18rem;
     }
     
