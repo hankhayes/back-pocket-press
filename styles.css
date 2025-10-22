@@ -126,7 +126,7 @@ a {
     .inter {
         white-space: normal;
         line-height: 0.8;
-        font-size: min(22vw, 17rem);
+        font-size: min(25vw, 20rem);
     }
     
     .container {
