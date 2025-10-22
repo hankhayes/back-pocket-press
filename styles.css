@@ -128,8 +128,8 @@ a {
     .inter {
         white-space: normal;
         line-height: 0.8;
-        font-size: min(28vw, 23rem);
-        min-height: 30rem;
+        font-size: min(27vw, 22rem);
+        min-height: 20rem;
     }
     
     .container {
