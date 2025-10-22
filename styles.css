@@ -105,6 +105,12 @@ a {
         font-size: min(30vw, 25rem);
     }
     
+    .crimson {
+        white-space: normal;
+        line-height: 0.8;
+        font-size: min(30vw, 25rem);
+    }
+    
     .container {
         padding: 1rem;
     }
