@@ -13,7 +13,19 @@
     <div class="container">
         <span class="sorts-mill-goudy">a new way to read</span>
         
-        <span class="crimson">Back Pocket Press</span>
+        <span id="logo" class="crimson">Back Pocket Press</span>
+        
+        <script>
+            const el = document.getElementById('logo');
+            const classes = ['unifraktur', 'crimson'];
+            let index = 0;
+            
+            setInterval(() => {
+              el.classList.remove(classes[index]);
+              index = 1 - index;
+              el.classList.add(classes[index]);
+            }, 500);
+        </script>
         
         <span class="sorts-mill-goudy coming-soon"><i>Coming soon...</i></span>
         
