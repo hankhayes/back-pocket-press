@@ -43,15 +43,27 @@ body {
 }
 
 .crimson {
-  font-family: 'Crimson Text', serif;
-  font-size: min(12vw, 12rem);
-  font-weight: 400;
-display: block;
-margin-bottom: 2rem;
-line-height: 0.9;
-word-spacing: 0.1rem;
-max-width: 100%;
+    font-family: 'Crimson Text', serif;
+    font-size: min(12vw, 12rem);
+    font-weight: 400;
+    display: block;
+    margin-bottom: 2rem;
+    line-height: 0.9;
+    word-spacing: 0.1rem;
+    max-width: 100%;
 }
+
+.inter {
+    font-family: 'Inter', sans-serif;
+    font-size: min(12vw, 12rem);
+    font-weight: 400;
+    display: block;
+    margin-bottom: 2rem;
+    line-height: 0.9;
+    word-spacing: 0.1rem;
+    max-width: 100%;
+}
+
 
 /* "Coming soon..." - lighter weight serif font, small */
 .coming-soon {
@@ -106,6 +118,12 @@ a {
     }
     
     .crimson {
+        white-space: normal;
+        line-height: 0.8;
+        font-size: min(30vw, 25rem);
+    }
+    
+    .inter {
         white-space: normal;
         line-height: 0.8;
         font-size: min(30vw, 25rem);
