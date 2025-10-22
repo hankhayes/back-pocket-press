@@ -22,8 +22,11 @@
             let index = 0;
             
             setInterval(() => {
-              el.classList.remove(classes[index]);
-              index = 1 - index;
+                // Remove the current class
+                el.classList.remove(classes[index]);
+              // Move to the next index, looping back to 0 if needed
+              index = (index + 1) % classes.length;
+              // Add the new class
               el.classList.add(classes[index]);
             }, 500);
         </script>
