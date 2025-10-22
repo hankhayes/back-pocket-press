@@ -115,21 +115,21 @@ a {
         white-space: normal;
         line-height: 0.8;
         font-size: min(30vw, 25rem);
-        min-height: 20rem;
+        min-height: 18rem;
     }
     
     .crimson {
         white-space: normal;
         line-height: 0.8;
         font-size: min(30vw, 25rem);
-        min-height: 20rem;
+        min-height: 18rem;
     }
     
     .inter {
         white-space: normal;
         line-height: 0.9;
-        font-size: min(27vw, 22rem);
-        min-height: 20rem;
+        font-size: min(26vw, 21rem);
+        min-height: 18rem;
     }
     
     .container {
