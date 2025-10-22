@@ -42,6 +42,17 @@ body {
     max-width: 100%;
 }
 
+.crimson {
+  font-family: 'Crimson Text', serif;
+  font-size: min(12vw, 12rem);
+  font-weight: 400;
+display: block;
+margin-bottom: 2rem;
+line-height: 0.9;
+word-spacing: 0.1rem;
+max-width: 100%;
+}
+
 /* "Coming soon..." - lighter weight serif font, small */
 .coming-soon {
     font-size: 2rem;
