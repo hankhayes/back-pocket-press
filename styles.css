@@ -56,7 +56,7 @@ body {
 .inter {
     font-family: 'Inter', sans-serif;
     font-size: min(12vw, 12rem);
-    font-weight: 400;
+    font-weight: 300;
     display: block;
     margin-bottom: 2rem;
     line-height: 0.9;
