@@ -33,46 +33,54 @@ body {
 /* "Back Pocket Press" - old English font, big */
 .unifraktur {
     font-family: 'UnifrakturMaguntia', cursive;
-    font-size: min(12vw, 12rem);
+    font-size: min(16vw, 16rem);
     font-weight: 400;
     display: block;
     margin-bottom: 2rem;
     line-height: 0.9;
     word-spacing: 0.1em;
     max-width: 100%;
+    letter-spacing: -0.2rem;
 }
 
 .crimson {
     font-family: 'Crimson Text', serif;
-    font-size: min(12vw, 12rem);
+    font-size: min(16vw, 16rem);
     font-weight: 400;
     display: block;
     margin-bottom: 2rem;
     line-height: 0.9;
     word-spacing: 0.1rem;
     max-width: 100%;
+    letter-spacing: .2rem;
+    word-spacing: 2rem;
 }
 
-.inter {
+.roboto {
     font-family: 'Inter', sans-serif;
-    font-size: min(12vw, 12rem);
+    font-size: min(16vw, 16rem);
     font-weight: 400;
     display: block;
     margin-bottom: 2rem;
     line-height: 0.9;
     word-spacing: 0.1rem;
     max-width: 100%;
+    letter-spacing: -0.6rem;
+    word-spacing: -0.1rem;
 }
 
-.monsieur-la-doulaise {
-    font-family: 'Monsieur La Doulaise', cursive;
-    font-size: min(12vw, 12rem);
+.ballet {
+    font-family: 'Ballet', cursive;
+    font-size: min(16vw, 16rem);
     font-weight: 400;
     display: block;
     margin-bottom: 2rem;
     line-height: 0.9;
     word-spacing: 0.1rem;
     max-width: 100%;
+    text-indent: -0.5rem;
+    letter-spacing: 0.8rem;
+    word-spacing: 1.4rem;
     /* add additional styling as needed */
 }
 
@@ -138,18 +146,19 @@ a {
         min-height: 18rem;
     }
     
-    .inter {
+    .roboto {
         white-space: normal;
         line-height: 0.9;
-        font-size: min(26vw, 21rem);
+        font-size: min(26.7vw, 21.7em);
         min-height: 18rem;
     }
     
-    .monsieur-la-doulaise {
+    .ballet {
         white-space: normal;
         line-height: 0.8;
         font-size: min(30vw, 25rem);
         min-height: 18rem;
+        text-indent: -8rem;
     }
     
     .container {

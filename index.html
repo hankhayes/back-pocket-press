@@ -8,18 +8,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <span class="sorts-mill-goudy">a new way to read</span>
         
-        <span id="logo" class="crimson">Back Pocket Press</span>
+        <br>
+        <br>
+        <br>
+
+        <span id="logo" class="roboto">Back Pocket Press</span>
         
         <script>
             const el = document.getElementById('logo');
-            const classes = ['unifraktur', 'crimson', 'monsieur-la-doulaise', 'inter'];
+            const classes = ['roboto', 'unifraktur', 'crimson', 'ballet'];
             let index = 0;
             
             setInterval(() => {
@@ -29,8 +33,12 @@
               index = (index + 1) % classes.length;
               // Add the new class
               el.classList.add(classes[index]);
-            }, 500);
+            }, 2000);
         </script>
+        
+        <br>
+        <br>
+        <br>
         
         <span class="sorts-mill-goudy coming-soon"><i>Coming soon...</i></span>
         
