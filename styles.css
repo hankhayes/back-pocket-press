@@ -119,7 +119,7 @@ a {
 }
 
 /* Responsive design */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .sorts-mill-goudy {
         font-size: 1.5rem;
     }
